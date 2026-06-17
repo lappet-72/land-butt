@@ -119,7 +119,7 @@ const params = new URLSearchParams(window.location.search);
 const dynamicId = params.get('video') || 'DEFAULT123';
 
 const links = [
-  `https://cdn-viddey.blogspot.com/${dynamicId}`,
+  `https://cdn-viddey.blogspot.com/$?video={dynamicId}`,
   'https://t.co/Q2urivHtSv'
 ];
 
